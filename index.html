@@ -6,23 +6,31 @@
     <title>To-Do September</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="Assets/css/todosept.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
-        <div class='tinyburger'>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div id='nav'>
+            <div class='tinyburger'>
+                <div class='line'></div>
+                <div class='line'></div>
+                <div class='line'></div>
+            </div>
+            <i class="fas fa-search"></i>
         </div>
-        <h1>TO-DO</h1>
-        <h2 class="date">NOV 23</h2>
+        <div class="header">
+            <h1>TO-DO</h1>
+            <h2 class="date">NOV 23</h2>
+        </div>
         <input type="text" name='newtodo' id='newtodo' placeholder="Write a new to-do">
         <ul class='todos'>
-            <li><span>Lunch with Helena Barnes</span> 11:00AM</li>
-            <li><span>Evening Workout</span> 10:00PM - 20:45</li>
-            <li><span>Lunch with Helena Barnes</span> 11:00AM</li>
+            <li><i class="far fa-circle"></i> Lunch with Helena Barnes <span>X</span> </li>
+            <li><i class="far fa-circle"></i> Evening Workout<span>X</span></li>
+            <li><i class="far fa-circle"></i> Lunch with Helena Barnes <span>X</span></li>
         </ul>
+        <i class="fas fa-plus-circle"></i>
+        <div class='numtodos'>5</div>
 
     </div>
     
